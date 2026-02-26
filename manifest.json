@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Video Script to Prompt Converter",
+  "version": "1.0",
+  "description": "Convert simple scene descriptions into structured AI video prompts. Optimized for Seed2Video but works with any AI video tool.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png",
+    "256": "icons/icon256.png"
+  },
+  "permissions": ["storage"],
+  "host_permissions": ["https://openrouter.ai/*"]
+}

@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+__MACOSX/
+
+# Build files
+*.zip
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment variables (if ever used)
+.env
+.env.local
+
+# Chrome extension build artifacts
+*.pem
+*.crx
+
+# Logs
+*.log
+npm-debug.log*
+
+# Temporary files
+*.tmp
+*.temp
